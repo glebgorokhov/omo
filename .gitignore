@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+#
+www/node_modules/
+www/Gruntfile.js
+www/package.json
