@@ -26,11 +26,21 @@
       </ul>
     </nav>
   </header>
+
+  <div class="page-section__paginator paginator">
+    <ul class="paginator__list">
+      <li class="paginator__item paginator__item--current"><a>1</a></li>
+      <li class="paginator__item"><a href="#">2</a></li>
+      <li class="paginator__item"><a href="#">3</a></li>
+      <li class="paginator__item"><a href="#">4</a></li>
+    </ul>
+  </div>
+
   <main>
     <section class="page-section">
       <div class="page-section__content page-section__content--shadow wrapper">
         <div class="page-section__text-block">
-          <p class="page-section__title">Web-disgn branding business</p>
+          <p class="page-section__title">Web-design branding business</p>
           <p class="page-section__text">Мы молодое агентство, специализирующееся<br>
             на создании сайтов и разработке фирменного стиля<br>
             Мы верим в красоту и будущее.
@@ -38,16 +48,10 @@
         </div>
         <div class="page-section__img"><img src="img/mona.jpg" alt="" width="1100" height="503"></div>
       </div>
-      <div class="page-section__paginator paginator">
-        <ul class="paginator__list">
-          <li class="paginator__item paginator__item--current"><a>1</a></li>
-          <li class="paginator__item"><a href="#">2</a></li>
-          <li class="paginator__item"><a href="#">3</a></li>
-          <li class="paginator__item"><a href="#">4</a></li>
-        </ul>
-      </div>
     </section>
+
     <div id="cases"></div>
+
     <section class="page-section page-section--cases">
       <div class="page-section__content cases wrapper">
         <ul class="cases__list">
@@ -60,16 +64,10 @@
           <a href="#" class="cases__link">Загрузить ещё</a>
         </div>
       </div>
-      <div class="page-section__paginator paginator">
-        <ul class="paginator__list">
-          <li class="paginator__item"><a href="#">1</a></li>
-          <li class="paginator__item paginator__item--current"><a>2</a></li>
-          <li class="paginator__item"><a href="#">3</a></li>
-          <li class="paginator__item"><a href="#">4</a></li>
-        </ul>
-      </div>
     </section>
+
     <div id="services"></div>
+
     <section class="page-section page-section--services">
       <div class="page-section__content page-section__content--shadow wrapper">
         <div class="services">
@@ -78,33 +76,25 @@
           </video>
         </div>
       </div>
-      <div class="page-section__paginator paginator">
-        <ul class="paginator__list">
-          <li class="paginator__item"><a href="#">1</a></li>
-          <li class="paginator__item"><a href="#">2</a></li>
-          <li class="paginator__item paginator__item--current"><a>3</a></li>
-          <li class="paginator__item"><a href="#">4</a></li>
-        </ul>
-      </div>
     </section>
+
     <div id="contacts"></div>
+
     <section class="page-section">
       <div class="page-section__content contacts wrapper">
         <form action="" class="contacts__form">
-          <div class="contacts__container">
-            <label for="name"><span class="contacts__label">Ваше имя</span><input type="text" name="name" id="name"></label>
-            <label for="telephone"><span class="contacts__label">Ваш телефон</span><input type="tel" name="telephone" id="telephone"></label>
-            <label for="email"><span class="contacts__label">Ваш email</span><input type="email" naem="email" id="email"></label>
-            <label for="comment"><span class="contacts__label">Ваш комментарий</span><textarea type="text" name="comment" rows="1" id="comment"></textarea></label>
-            <input type="submit" value="отправить">
-          </div>
+            <input type="text" name="name" id="name" placeholder="Ваше имя">
+            <input type="tel" name="tel" id="tel" placeholder="Ваш телефон">
+            <input type="email" naem="email" id="email" placeholder="Ваш email">
+            <textarea type="text" name="comment" rows="1" id="comment" placeholder="Ваш комментарий"></textarea>
+            <button type="submit" class="button">Отправить</button>
         </form>
-        <div class="cotnacts__text">
-          <a href="mailto:omo@agency.com">omo@agency.com</a>
+        <div class="contacts__text">
+          <p><a href="mailto:omo@agency.com">omo@agency.com</a></p>
           <p>
             Москва,Дизайн-завод Флакон ул. Большая Новодмитровская, д. 36, стр. 12, вход 7
           </p>
-          <a href="tel:+79806326516">+ 7 980 632-65-16</a>
+          <p><a href="tel:+79806326516">+ 7 980 632-65-16</a></p>
         </div>
         <div class="contacts__socials socials">
           <ul class="socials__list">
@@ -114,14 +104,6 @@
             <li class="social__item"><a href="#">Instagram</a></li>
           </ul>
         </div>
-      </div>
-      <div class="page-section__paginator paginator">
-        <ul class="paginator__list">
-          <li class="paginator__item"><a href="#">1</a></li>
-          <li class="paginator__item"><a href="#">2</a></li>
-          <li class="paginator__item"><a href="#">3</a></li>
-          <li class="paginator__item paginator__item--current"><a>4</a></li>
-        </ul>
       </div>
     </section>
   </main>

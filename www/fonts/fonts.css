@@ -1,34 +1,27 @@
 @font-face {
-font-family: 'Museo Sans';
-font-style: normal;
-font-weight: 100;
-src: local('Museo Sans Cyrl 100'), url('MuseoSansCyrl100.otf') format('opentype');
+  font-family: 'Luxia';
+  src: url(../fonts/Luxia/Luxia-Semi-Bold.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-font-family: 'Museo Sans';
-font-style: normal;
-font-weight: 300;
-src: local('Museo Sans Cyrl 300'), url('MuseoSansCyrl300.otf') format('opentype');
+  font-family: 'Luxia Display';
+  src: url(../fonts/Luxia/Luxia-Semi-BoldDisplay.otf) format('opentype');
+  font-weight: 600;
+  font-style: normal;
 }
 
 @font-face {
-font-family: 'Museo Sans';
-font-style: normal;
-font-weight: 500;
-src: local('Museo Sans Cyrl 500'), url('MuseoSansCyrl500.otf') format('opentype');
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+  font-weight: 100;
+  font-style: normal;
 }
 
 @font-face {
-font-family: 'Museo Sans';
-font-style: normal;
-font-weight: 700;
-src: local('Museo Sans Cyrl 700'), url('MuseoSansCyrl700.otf') format('opentype');
-}
-
-@font-face {
-font-family: 'Museo Sans';
-font-style: normal;
-font-weight: 900;
-src: local('Museo Sans Cyrl 900'), url('MuseoSansCyrl900.otf') format('opentype');
+  font-family: 'Roboto';
+  src: url(../fonts/Roboto/Roboto-Light.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
