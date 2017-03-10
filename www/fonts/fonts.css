@@ -1,27 +1,27 @@
 @font-face {
   font-family: 'Luxia';
-  src: url(../fonts/Luxia/Luxia-Semi-Bold.otf) format('opentype');
+  src: url(Luxia/Luxia-Semi-Bold.otf) format('opentype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Luxia Display';
-  src: url(../fonts/Luxia/Luxia-Semi-BoldDisplay.otf) format('opentype');
+  src: url(Luxia/Luxia-Semi-BoldDisplay.otf) format('opentype');
   font-weight: 600;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url(../fonts/Roboto/Roboto-Thin.ttf) format('truetype');
+  src: url(Roboto/Roboto-Thin.ttf) format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url(../fonts/Roboto/Roboto-Light.ttf) format('truetype');
+  src: url(Roboto/Roboto-Light.ttf) format('truetype');
   font-weight: 300;
   font-style: normal;
 }
