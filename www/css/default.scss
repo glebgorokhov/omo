@@ -132,7 +132,7 @@
   align-items: center;
   position: relative;
   margin-top: 0;
-  margin-bottom: 148px;
+  margin-bottom: 0;
   min-height: 100vh;
   box-sizing: border-box;
 
@@ -203,7 +203,8 @@
   }
   
   &_lead {
-    margin-top: 149px;
+    padding-top: 149px;
+    padding-bottom: 148px;
     
     & .page-section__content {
       height: 503px;
@@ -211,20 +212,20 @@
   }
 
   &_cases {
-    margin-bottom: 70px;
     padding-top: 115px;
+    padding-bottom: 70px;
   }
   
   &_services {
     padding-top: 150px;
-    margin-bottom: 44px;
+    padding-bottom: 44px;
   }
   
   &_contacts {
     justify-content: center;
     align-items: flex-end;
     padding-top: 150px;
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
