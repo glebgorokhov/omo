@@ -142,7 +142,6 @@
 
     &_shadow {
       background-color: #fff;
-      z-index: -2;
       
       &:before {
         position: absolute;
@@ -152,6 +151,7 @@
         width: 90%;
         height: 90%;
         box-shadow: -24px -18px 68px 0px rgba(0, 0, 0, 0.09);
+        z-index: -2;
       }
     }
   }
