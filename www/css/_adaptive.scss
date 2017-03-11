@@ -1,17 +1,39 @@
 // Адаптивная верстка //
-@media (max-width:1100px) {
+@media (max-width:1340px) {
+  .paginator {width:35px;}
+}
+
+@media (max-width:1230px) {
+  .container {width:960px}
+  .cases__item_small {width:397px; height:auto;}
+  .cases__item_big {height:auto}
+  .cases__title {padding: 0 50px; box-sizing: border-box;}
+  .services__video {width: 100%; height: auto;}
+  .services {padding-left:70px; padding-right:70px;}
+}
+
+@media (max-width:1090px) {
+  .container {width:850px}
+  .page-section__img {opacity:.2}
+  .cases__item_small {width:346px;}
+  .page-section {min-height:0}
+}
+
+html, body {min-width:1000px}
+
+
+/*@media (max-width:1100px) {
   .container {
-    /*width:600px*/
     width: calc(1100*100%/1400);
   }
-  
+
   .page-section {
     &__img {
       background-color: #fff;
       opacity: 0.5;
     }
   }
-  
+
   .cases {
     &__list {
       padding: 0 calc(61*100%/1100);
@@ -41,11 +63,11 @@
       }
     }
   }
-  
+
   .services {
     padding-left: calc(128*100%/1100);
     padding-right: calc(128*100%/1100);
-    
+
     &__video {
       width: 100%;
       min-width: 190px;
@@ -54,7 +76,7 @@
       max-height: 476px;
     }
   }
-  
+
   .contacts {
     &__form,
     &__text {
@@ -62,7 +84,7 @@
       background-color: rgba(255, 255, 255, 0.7);
     }
   }
-  
+
   .socials {
     &__list {
       background-color: rgba(255, 255, 255, 0.7);
@@ -76,12 +98,12 @@
       letter-spacing: normal;
     }
   }
-  
-  .cases {    
+
+  .cases {
     &__list {
       flex-direction: column;
     }
-    
+
     &__item {
       &_small {
         width: 100%;
@@ -89,40 +111,39 @@
     }
   }
 }
-
+*/
+/*
 @media (max-width:649px) {
-  .container {/*width:400px*/}
   .page-section {
     &__title {
       font-size: 50px;
       line-height: 65px;
     }
-    
+
     &__text {
       letter-spacing: normal;
     }
   }
-  
+
 }
 
 
 
 @media (max-width:479px) {
-  .container {/*width:90%*/}
-  
+
   .page-header {
     &__nav {
       flex-direction: column;
     }
   }
-  
+
   .page-section {
     &__title {
       font-size: 44px;
       line-height: 65px;
     }
   }
-  
+
   .cases {
     &__item {
       a:after {
@@ -130,22 +151,22 @@
         height: calc(100% - 2*16px);
       }
     }
-    
+
     &__title {
       font-size: 28px;
     }
-    
+
     &__more {
       letter-spacing: normal;
     }
   }
-  
+
   .services {
     &__title {
       letter-spacing: normal;
     }
   }
-  
+
   .contacts {
     &__form,
     &__text {
@@ -153,14 +174,15 @@
       background-color: rgba(255, 255, 255, 0.7);
     }
   }
-  
+
   .socials__list {
     width: 100%;
     background-color: rgba(255, 255, 255, 0.7);
   }
-  
+
   .socials__item {
     margin-right: 55px;
   }
 }
+*/
 // Адаптивная верстка //
