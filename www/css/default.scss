@@ -139,8 +139,12 @@
   &__content {
     position: relative;
     padding: 0; 
+    
+    &_shadow1 {
+      box-shadow: -24px -18px 68px 0px rgba(0, 0, 0, 0.09);
+    }
 
-    &_shadow {
+    &_shadow2 {
       background-color: #fff;
       
       &:before {
