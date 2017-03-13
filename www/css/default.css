@@ -1,3 +1,4 @@
+/* line 40, C:/Projects/home/omo/www/css/_basics.scss */
 button::-moz-focus-inner,
 input[type="reset"]::-moz-focus-inner,
 input[type="button"]::-moz-focus-inner,
@@ -7,93 +8,115 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   /* */
   border: none; }
 
+/* line 48, C:/Projects/home/omo/www/css/_basics.scss */
 *:focus {
   outline: none; }
 
-::-moz-selection {
-  background: blue;
-  color: white; }
-
+/* line 51, C:/Projects/home/omo/www/css/_basics.scss */
 ::selection {
   background: blue;
   color: white; }
 
+/* line 52, C:/Projects/home/omo/www/css/_basics.scss */
 ::-moz-selection {
   background: blue;
   color: white; }
 
+/* line 53, C:/Projects/home/omo/www/css/_basics.scss */
 ::-webkit-selection {
   background: blue;
   color: white; }
 
+/* line 56, C:/Projects/home/omo/www/css/_basics.scss */
 ::-webkit-input-placeholder {
   color: #777; }
 
+/* line 57, C:/Projects/home/omo/www/css/_basics.scss */
 ::-moz-placeholder {
   color: #777; }
 
+/* line 58, C:/Projects/home/omo/www/css/_basics.scss */
 :-ms-input-placeholder {
   color: #777; }
 
+/* line 59, C:/Projects/home/omo/www/css/_basics.scss */
 :-moz-placeholder {
   color: #777; }
 
+/* line 62, C:/Projects/home/omo/www/css/_basics.scss */
 .noscroll {
   position: fixed; }
 
+/* line 65, C:/Projects/home/omo/www/css/_basics.scss */
 input:-webkit-autofill {
   -webkit-text-fill-color: black !important; }
 
+/* line 69, C:/Projects/home/omo/www/css/_basics.scss */
 input:-webkit-autofill,
 input:-webkit-autofill:hover,
 input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
   transition: background-color 50000000000s ease-in-out 0s !important; }
 
+/* line 87, C:/Projects/home/omo/www/css/_basics.scss */
 .one-col {
   width: 5.95%; }
 
+/* line 88, C:/Projects/home/omo/www/css/_basics.scss */
 .two-col {
   width: 14.5%; }
 
+/* line 89, C:/Projects/home/omo/www/css/_basics.scss */
 .three-col {
   width: 23.05%; }
 
+/* line 90, C:/Projects/home/omo/www/css/_basics.scss */
 .four-col {
   width: 31.6%; }
 
+/* line 91, C:/Projects/home/omo/www/css/_basics.scss */
 .five-col {
   width: 40.15%; }
 
+/* line 92, C:/Projects/home/omo/www/css/_basics.scss */
 .six-col {
   width: 48.7%; }
 
+/* line 93, C:/Projects/home/omo/www/css/_basics.scss */
 .seven-col {
   width: 57.25%; }
 
+/* line 94, C:/Projects/home/omo/www/css/_basics.scss */
 .eight-col {
   width: 65.8%; }
 
+/* line 95, C:/Projects/home/omo/www/css/_basics.scss */
 .nine-col {
   width: 74.35%; }
 
+/* line 96, C:/Projects/home/omo/www/css/_basics.scss */
 .ten-col {
   width: 82.9%; }
 
+/* line 97, C:/Projects/home/omo/www/css/_basics.scss */
 .eleven-col {
   width: 91.45%; }
 
+/* line 98, C:/Projects/home/omo/www/css/_basics.scss */
 .twelve-col {
   width: 100%; }
 
+/* line 101, C:/Projects/home/omo/www/css/_basics.scss */
 .cols {
   text-align: justify;
   text-justify: distribute; }
+  /* line 102, C:/Projects/home/omo/www/css/_basics.scss */
   .cols:after {
     content: "";
     display: inline-block;
     height: 0.0000000000001px;
     width: 100%; }
+  /* line 103, C:/Projects/home/omo/www/css/_basics.scss */
   .cols > * {
     display: inline-block;
     box-sizing: border-box;
@@ -101,71 +124,88 @@ input:-webkit-autofill:active {
     -webkit-box-sizing: border-box;
     vertical-align: top; }
 
+/* line 117, C:/Projects/home/omo/www/css/_basics.scss */
 html {
   width: 100%;
   height: 100%; }
 
+/* line 118, C:/Projects/home/omo/www/css/_basics.scss */
 body {
   width: 100%;
   min-height: 100%;
   font-size: 14px;
   font-family: 'Roboto', 'Arial', sans-serif;
-  font-weight: 100;
+  font-weight: 400;
   color: #000; }
 
+/* line 120, C:/Projects/home/omo/www/css/_basics.scss */
 header, section, footer {
   width: 100%;
   float: left; }
 
+/* line 121, C:/Projects/home/omo/www/css/_basics.scss */
 .container {
   width: 1100px;
   margin: 0 auto; }
 
+/* line 133, C:/Projects/home/omo/www/css/_basics.scss */
 h1, h2, h3, h4, h5, h6, p, span, ul, li {
   margin: 0;
   padding: 0; }
 
+/* line 134, C:/Projects/home/omo/www/css/_basics.scss */
 ul {
   list-style: none; }
 
+/* line 135, C:/Projects/home/omo/www/css/_basics.scss */
 span {
   font-style: inherit;
   font-family: inherit;
   font-weight: inherit; }
 
+/* line 140, C:/Projects/home/omo/www/css/_basics.scss */
 h1 {
   font-size: 36px;
   line-height: 1.2em; }
 
+/* line 141, C:/Projects/home/omo/www/css/_basics.scss */
 h2 {
   font-size: 30px;
   line-height: 1.2em; }
 
+/* line 142, C:/Projects/home/omo/www/css/_basics.scss */
 h3 {
   font-size: 24px;
   line-height: 1.2em; }
 
+/* line 143, C:/Projects/home/omo/www/css/_basics.scss */
 h4 {
   font-size: 20px;
   line-height: 1.2em; }
 
+/* line 144, C:/Projects/home/omo/www/css/_basics.scss */
 h5 {
   font-size: 18px;
   line-height: 1.2em; }
 
+/* line 147, C:/Projects/home/omo/www/css/_basics.scss */
 p {
   font-size: 14px;
   line-height: 1.7em; }
 
+/* line 148, C:/Projects/home/omo/www/css/_basics.scss */
 p.small {
   font-size: 12px; }
 
+/* line 149, C:/Projects/home/omo/www/css/_basics.scss */
 p.big {
   font-size: 16px; }
 
+/* line 150, C:/Projects/home/omo/www/css/_basics.scss */
 p.huge {
   font-size: 18px; }
 
+/* line 162, C:/Projects/home/omo/www/css/_basics.scss */
 a, input, button, select, textarea {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
@@ -176,12 +216,14 @@ a, input, button, select, textarea {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
+/* line 163, C:/Projects/home/omo/www/css/_basics.scss */
 a {
   text-decoration: inherit;
   font-weight: inherit;
   line-height: inherit;
   color: inherit; }
 
+/* line 165, C:/Projects/home/omo/www/css/_basics.scss */
 select, input, textarea {
   padding: 10px;
   text-align: left;
@@ -191,6 +233,7 @@ select, input, textarea {
   font-size: 14px;
   display: inline-block; }
 
+/* line 167, C:/Projects/home/omo/www/css/_basics.scss */
 .button {
   text-align: center;
   border: 0;
@@ -199,9 +242,11 @@ select, input, textarea {
   color: white;
   font-size: 15px;
   background-color: green; }
+  /* line 168, C:/Projects/home/omo/www/css/_basics.scss */
   .button:hover {
     background-color: blue; }
 
+/* line 4, C:/Projects/home/omo/www/css/default.scss */
 .page-header {
   position: fixed;
   left: 0;
@@ -210,45 +255,41 @@ select, input, textarea {
   background-color: #fff;
   z-index: 10; }
 
+/* line 14, C:/Projects/home/omo/www/css/default.scss */
 .page-header__nav {
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
   align-items: flex-start;
   padding: 20px 0; }
 
+/* line 26, C:/Projects/home/omo/www/css/default.scss */
 .page-header__logo {
   margin-right: auto;
-  font-family: 'Luxia', sans-serif;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 24px;
+  font-size: 0;
   text-decoration: none;
   text-transform: uppercase; }
 
+/* line 33, C:/Projects/home/omo/www/css/default.scss */
 .main-menu {
   margin: 0;
   padding: 0;
   list-style: none; }
+  /* line 38, C:/Projects/home/omo/www/css/default.scss */
   .main-menu__item {
     display: inline-block;
     vertical-align: top;
     margin-right: 34px;
     padding-top: 9px;
     font-size: 0; }
+    /* line 45, C:/Projects/home/omo/www/css/default.scss */
     .main-menu__item:last-child {
       margin-right: -3px; }
+    /* line 49, C:/Projects/home/omo/www/css/default.scss */
     .main-menu__item a {
       margin: 0;
       padding: 0;
@@ -258,13 +299,17 @@ select, input, textarea {
       text-decoration: none;
       letter-spacing: 2.2px;
       transition: all .25s ease-in-out; }
+      /* line 59, C:/Projects/home/omo/www/css/default.scss */
       .main-menu__item a:hover {
         color: #c0c0c0; }
+    /* line 64, C:/Projects/home/omo/www/css/default.scss */
     .main-menu__item_contacts a {
       color: #fb273e; }
+    /* line 68, C:/Projects/home/omo/www/css/default.scss */
     .main-menu__item.active {
       color: #c0c0c0; }
 
+/* line 74, C:/Projects/home/omo/www/css/default.scss */
 .paginator {
   position: fixed;
   top: 50%;
@@ -273,18 +318,20 @@ select, input, textarea {
   padding: 0;
   width: 80px;
   max-width: 82px;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 10; }
+  /* line 85, C:/Projects/home/omo/www/css/default.scss */
   .paginator__list {
     margin: 0;
     padding: 0;
     list-style: none; }
+  /* line 91, C:/Projects/home/omo/www/css/default.scss */
   .paginator__item {
     margin-bottom: 47px; }
+    /* line 94, C:/Projects/home/omo/www/css/default.scss */
     .paginator__item:last-child {
       margin-bottom: 0; }
+    /* line 98, C:/Projects/home/omo/www/css/default.scss */
     .paginator__item a {
       display: inline-block;
       vertical-align: top;
@@ -296,38 +343,54 @@ select, input, textarea {
       text-align: left;
       color: #585858;
       transition: all .25s ease-in-out; }
+      /* line 110, C:/Projects/home/omo/www/css/default.scss */
       .paginator__item a:hover {
         color: #fb273e; }
+    /* line 115, C:/Projects/home/omo/www/css/default.scss */
     .paginator__item.active {
       border-bottom: 1px solid #2f2d2d; }
+      /* line 118, C:/Projects/home/omo/www/css/default.scss */
       .paginator__item.active a {
         color: #000; }
 
+/* line 125, C:/Projects/home/omo/www/css/default.scss */
 .page-section {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
   justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   position: relative;
   margin-top: 0;
   margin-bottom: 0;
   min-height: 100vh;
   box-sizing: border-box; }
+  /* line 136, C:/Projects/home/omo/www/css/default.scss */
+  .page-section__downlink {
+    width: 2px;
+    height: 22px;
+    background-color: black;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    display: block;
+    cursor: pointer;
+    margin: auto;
+    transition: all .25s ease-in-out; }
+    /* line 137, C:/Projects/home/omo/www/css/default.scss */
+    .page-section__downlink:hover {
+      opacity: .4; }
+  /* line 140, C:/Projects/home/omo/www/css/default.scss */
   .page-section__content {
     position: relative;
     padding: 0; }
+    /* line 144, C:/Projects/home/omo/www/css/default.scss */
     .page-section__content_shadow1 {
       box-shadow: -12px -12px 68px 0 rgba(0, 0, 0, 0.09); }
+    /* line 148, C:/Projects/home/omo/www/css/default.scss */
     .page-section__content_shadow2 {
       background-color: #fff; }
+      /* line 151, C:/Projects/home/omo/www/css/default.scss */
       .page-section__content_shadow2:before {
         position: absolute;
         content: '';
@@ -337,6 +400,7 @@ select, input, textarea {
         height: 90%;
         box-shadow: -24px -18px 68px 0px rgba(0, 0, 0, 0.09);
         z-index: -2; }
+  /* line 164, C:/Projects/home/omo/www/css/default.scss */
   .page-section__img {
     position: absolute;
     bottom: 0;
@@ -345,16 +409,20 @@ select, input, textarea {
     height: 100%;
     overflow: hidden;
     z-index: -1; }
+    /* line 173, C:/Projects/home/omo/www/css/default.scss */
     .page-section__img img {
       position: absolute;
       bottom: 0;
       right: 0;
       width: 1100;
       height: 503; }
+  /* line 182, C:/Projects/home/omo/www/css/default.scss */
   .page-section__text-block {
     padding-top: 97px;
     max-width: 598px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 97px; }
+  /* line 189, C:/Projects/home/omo/www/css/default.scss */
   .page-section__title {
     margin: 0;
     margin-bottom: 12px;
@@ -367,62 +435,60 @@ select, input, textarea {
     text-align: center;
     text-transform: uppercase;
     color: #fb273e; }
+  /* line 203, C:/Projects/home/omo/www/css/default.scss */
   .page-section__text {
     margin: 0;
     padding: 0 10px;
-    line-height: 18px;
+    line-height: 23px;
     letter-spacing: 2.8px;
-    text-align: center; }
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px; }
+  /* line 213, C:/Projects/home/omo/www/css/default.scss */
   .page-section_lead {
     padding-top: 149px;
     padding-bottom: 148px; }
-    .page-section_lead .page-section__content {
-      height: 503px; }
+    /* line 217, C:/Projects/home/omo/www/css/default.scss */
+    .page-section_lead.page-section__content {
+      min-height: 503px; }
+  /* line 222, C:/Projects/home/omo/www/css/default.scss */
   .page-section_cases {
     padding-top: 115px;
     padding-bottom: 70px; }
+  /* line 227, C:/Projects/home/omo/www/css/default.scss */
   .page-section_services {
     padding-top: 150px;
     padding-bottom: 44px; }
+  /* line 232, C:/Projects/home/omo/www/css/default.scss */
   .page-section_contacts {
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
     justify-content: center;
-    -webkit-align-items: flex-end;
-    -ms-flex-align: end;
-    align-items: flex-end;
-    padding-top: 150px;
-    padding-bottom: 0; }
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px; }
 
+/* line 241, C:/Projects/home/omo/www/css/default.scss */
 .cases__list {
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-align-content: space-between;
-  -ms-flex-line-pack: justify;
   align-content: space-between;
   padding: 0 61px;
   list-style: none; }
 
+/* line 251, C:/Projects/home/omo/www/css/default.scss */
 .cases__item {
   position: relative;
   font-size: 0;
   margin-bottom: 44px; }
+  /* line 256, C:/Projects/home/omo/www/css/default.scss */
   .cases__item a {
     position: relative;
     display: block;
     margin: 0;
     font-size: 0;
     transition: all .25s ease-in-out; }
+    /* line 263, C:/Projects/home/omo/www/css/default.scss */
     .cases__item a:before {
       position: absolute;
       content: '';
@@ -431,6 +497,7 @@ select, input, textarea {
       width: 100%;
       height: 100%;
       transition: all .25s ease-in-out; }
+    /* line 273, C:/Projects/home/omo/www/css/default.scss */
     .cases__item a:after {
       position: absolute;
       content: '';
@@ -438,26 +505,30 @@ select, input, textarea {
       left: 50%;
       width: calc(100% - 2*40px);
       height: calc(100% - 2*33px);
-      -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%);
       transition: all .25s ease-in-out;
       border: 1px solid #fff;
       opacity: 0; }
+    /* line 287, C:/Projects/home/omo/www/css/default.scss */
     .cases__item a:hover:before {
       background-color: rgba(0, 0, 0, 0.7); }
+    /* line 291, C:/Projects/home/omo/www/css/default.scss */
     .cases__item a:hover:after {
       opacity: 1; }
+  /* line 296, C:/Projects/home/omo/www/css/default.scss */
   .cases__item_big {
     width: 977px;
     height: 460px; }
+  /* line 301, C:/Projects/home/omo/www/css/default.scss */
   .cases__item_small {
     width: 469px;
     height: 461px; }
+  /* line 306, C:/Projects/home/omo/www/css/default.scss */
   .cases__item img {
     width: 100%;
     height: 100%; }
 
+/* line 312, C:/Projects/home/omo/www/css/default.scss */
 .cases__title {
   position: absolute;
   top: 50%;
@@ -469,14 +540,14 @@ select, input, textarea {
   text-transform: uppercase;
   text-align: center;
   color: transparent;
-  -webkit-transform: translate(-50%, -100%);
-  -ms-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
   z-index: 10;
   transition: all .25s ease-in-out; }
+  /* line 327, C:/Projects/home/omo/www/css/default.scss */
   .cases__item > a:hover > .cases__title {
     color: #fff; }
 
+/* line 332, C:/Projects/home/omo/www/css/default.scss */
 .cases__more {
   position: absolute;
   top: 50%;
@@ -487,19 +558,20 @@ select, input, textarea {
   letter-spacing: 3.2px;
   text-align: center;
   color: transparent;
-  -webkit-transform: translate(-50%, 100%);
-  -ms-transform: translate(-50%, 100%);
   transform: translate(-50%, 100%);
   transition: all .25s ease-in-out; }
+  /* line 345, C:/Projects/home/omo/www/css/default.scss */
   .cases__item > a:hover > .cases__more {
     color: #fff; }
 
+/* line 350, C:/Projects/home/omo/www/css/default.scss */
 .cases__btn {
   margin-top: 21px;
   text-align: center; }
 
+/* line 355, C:/Projects/home/omo/www/css/default.scss */
 .cases__link {
-  font-weight: 100;
+  font-size: 16px;
   letter-spacing: 2.8px;
   text-align: center;
   text-decoration: none;
@@ -507,11 +579,14 @@ select, input, textarea {
   color: #fb273e;
   cursor: pointer;
   transition: all .25s ease-in-out; }
+  /* line 365, C:/Projects/home/omo/www/css/default.scss */
   .cases__link:hover {
     color: #000; }
 
+/* line 373, C:/Projects/home/omo/www/css/default.scss */
 .services {
   padding: 45px 128px 10px; }
+  /* line 376, C:/Projects/home/omo/www/css/default.scss */
   .services__title {
     margin: 0;
     margin-bottom: 28px;
@@ -521,37 +596,27 @@ select, input, textarea {
     line-height: normal;
     letter-spacing: 3.6px;
     text-align: center; }
+  /* line 387, C:/Projects/home/omo/www/css/default.scss */
   .services__video {
     width: 842px;
     height: 476px; }
 
+/* line 393, C:/Projects/home/omo/www/css/default.scss */
 .contacts {
   position: relative;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-justify-content: flex-start;
-  -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
   align-items: center;
   padding-top: 32px; }
+  /* line 401, C:/Projects/home/omo/www/css/default.scss */
   .contacts__form {
-    display: -webkit-flex;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
     justify-content: flex-start;
     margin-bottom: 57px;
     width: 37.2%; }
+    /* line 408, C:/Projects/home/omo/www/css/default.scss */
     .contacts__form input,
     .contacts__form textarea {
       margin-bottom: 24px;
@@ -563,30 +628,14 @@ select, input, textarea {
       color: #000;
       border-bottom: 1px solid #000;
       resize: vertical; }
-      .contacts__form input:focus::-webkit-input-placeholder, .contacts__form input:focus,
-      .contacts__form textarea:focus::-webkit-input-placeholder,
-      .contacts__form textarea:focus {
-        padding-left: 0;
-        color: #fb273e;
-        border-bottom-color: #fb273e; }
-      .contacts__form input:focus::-moz-placeholder, .contacts__form input:focus,
-      .contacts__form textarea:focus::-moz-placeholder,
-      .contacts__form textarea:focus {
-        padding-left: 0;
-        color: #fb273e;
-        border-bottom-color: #fb273e; }
-      .contacts__form input:focus:-ms-input-placeholder, .contacts__form input:focus,
-      .contacts__form textarea:focus:-ms-input-placeholder,
-      .contacts__form textarea:focus {
-        padding-left: 0;
-        color: #fb273e;
-        border-bottom-color: #fb273e; }
+      /* line 420, C:/Projects/home/omo/www/css/default.scss */
       .contacts__form input:focus::placeholder, .contacts__form input:focus,
       .contacts__form textarea:focus::placeholder,
       .contacts__form textarea:focus {
         padding-left: 0;
         color: #fb273e;
         border-bottom-color: #fb273e; }
+    /* line 428, C:/Projects/home/omo/www/css/default.scss */
     .contacts__form button {
       margin-top: 20px;
       padding: 23px 0;
@@ -600,9 +649,11 @@ select, input, textarea {
       background-color: #fb273e;
       cursor: pointer;
       transition: all 0.25s ease-in-out; }
+      /* line 442, C:/Projects/home/omo/www/css/default.scss */
       .contacts__form button:hover {
         color: #fb273e;
         background-color: #fff; }
+  /* line 449, C:/Projects/home/omo/www/css/default.scss */
   .contacts__text {
     margin-bottom: 51px;
     width: 27.2%;
@@ -610,70 +661,90 @@ select, input, textarea {
     font-weight: 300;
     letter-spacing: 2.8px;
     text-align: center; }
+    /* line 457, C:/Projects/home/omo/www/css/default.scss */
     .contacts__text p {
       margin: 0;
       margin-bottom: 16px;
       padding: 0;
       line-height: normal; }
+  /* line 465, C:/Projects/home/omo/www/css/default.scss */
   .contacts__img {
     position: absolute;
     top: 20px;
     left: 0;
     z-index: -1; }
+    /* line 471, C:/Projects/home/omo/www/css/default.scss */
     .contacts__img img {
       width: 240px;
       height: 634px; }
 
+/* line 479, C:/Projects/home/omo/www/css/default.scss */
 .socials__list {
   margin: 0;
   margin-bottom: 24px;
   padding: 0;
   list-style: none; }
 
+/* line 486, C:/Projects/home/omo/www/css/default.scss */
 .socials__item {
   display: inline-block;
   vertical-align: bottom;
   margin-right: 69px; }
+  /* line 491, C:/Projects/home/omo/www/css/default.scss */
   .socials__item:last-child {
     margin-right: 0; }
+  /* line 495, C:/Projects/home/omo/www/css/default.scss */
   .socials__item a {
     font-size: 0; }
+    /* line 498, C:/Projects/home/omo/www/css/default.scss */
     .socials__item a:hover svg {
       fill: #fb273e;
       transition: all 0.25s ease-in-out; }
 
 @media (max-width: 1340px) {
+  /* line 3, C:/Projects/home/omo/www/css/_adaptive.scss */
   .paginator {
     width: 35px; } }
 
 @media (max-width: 1230px) {
+  /* line 7, C:/Projects/home/omo/www/css/_adaptive.scss */
   .container {
     width: 960px; }
+  /* line 8, C:/Projects/home/omo/www/css/_adaptive.scss */
   .cases__item_small {
     width: 397px;
     height: auto; }
+  /* line 9, C:/Projects/home/omo/www/css/_adaptive.scss */
   .cases__item_big {
     height: auto; }
+  /* line 10, C:/Projects/home/omo/www/css/_adaptive.scss */
   .cases__title {
     padding: 0 50px;
     box-sizing: border-box; }
+  /* line 11, C:/Projects/home/omo/www/css/_adaptive.scss */
   .services__video {
     width: 100%;
     height: auto; }
+  /* line 12, C:/Projects/home/omo/www/css/_adaptive.scss */
   .services {
     padding-left: 70px;
     padding-right: 70px; } }
 
 @media (max-width: 1090px) {
+  /* line 16, C:/Projects/home/omo/www/css/_adaptive.scss */
   .container {
     width: 850px; }
+  /* line 17, C:/Projects/home/omo/www/css/_adaptive.scss */
   .page-section__img {
     opacity: .2; }
+  /* line 18, C:/Projects/home/omo/www/css/_adaptive.scss */
   .cases__item_small {
     width: 346px; }
+  /* line 19, C:/Projects/home/omo/www/css/_adaptive.scss */
   .page-section {
     min-height: 0; } }
 
+/* line 22, C:/Projects/home/omo/www/css/_adaptive.scss */
 html, body {
   min-width: 1000px; }
 
@@ -840,3 +911,5 @@ html, body {
   }
 }
 */
+
+/*# sourceMappingURL=default.css.map */
