@@ -13,30 +13,31 @@
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="fonts/fonts.css"/>
     <link rel="stylesheet" href="css/default.css"/>
+    <link rel="stylesheet" href="css/jquery.pagepiling.min.css" class="style">
 </head>
 
 <body>
   <header class="page-header">
     <nav class="page-header__nav container">
       <a class="page-header__logo"><img src="img/logo.svg" height="29" alt="@@"></a>
-      <ul class="page-header__menu main-menu">
-        <li class="main-menu__item"><a href="#cases">Кейсы</a></li>
-        <li class="main-menu__item"><a href="#services">Услуги</a></li>
-        <li class="main-menu__item main-menu__item_contacts"><a href="#contacts">Связаться</a></li>
+      <ul class="page-header__menu main-menu" id="main-menu">
+        <li class="main-menu__item" data-menuanchor="cases"><a href="#cases">Кейсы</a></li>
+        <li class="main-menu__item" data-menuanchor="services"><a href="#services">Услуги</a></li>
+        <li class="main-menu__item main-menu__item_contacts" data-menuanchor="contacts"><a href="#contacts">Связаться</a></li>
       </ul>
     </nav>
   </header>
 
   <div class="paginator">
     <ul class="paginator__list">
-      <li class="paginator__item active"><a>1</a></li>
+      <li class="paginator__item active"><a href="#lead">1</a></li>
       <li class="paginator__item"><a href="#cases">2</a></li>
       <li class="paginator__item"><a href="#services">3</a></li>
       <li class="paginator__item"><a href="#contacts">4</a></li>
     </ul>
   </div>
 
-  <main>
+  <main id="pagepiling">
     <section class="page-section page-section_lead">
       <div class="page-section__content page-section__content_shadow1 container">
         <div class="page-section__text-block">
@@ -51,7 +52,7 @@
       <span class="page-section__downlink"></span>
     </section>
 
-    <section class="page-section page-section_cases" id="cases">
+    <section class="page-section page-section_cases  pp-scrollable">
       <div class="page-section__content cases container">
         <ul class="cases__list">
           <li class="cases__item cases__item_big"><a href="#"><img src="img/shmot.jpg" alt="" width="977" height="458"><span class="cases__title">shmot</span><span class="cases__more">Посмотреть кейс</span></a></li>
@@ -65,7 +66,7 @@
       </div>
     </section>
 
-    <section class="page-section page-section_services" id="services">
+    <section class="page-section page-section_services  pp-scrollable">
       <div class="page-section__content page-section__content_shadow2 container">
         <div class="services">
           <p class="services__title">Мы создаем сайты<br> и разрабатываем фирменный стиль</p>
@@ -75,7 +76,7 @@
       </div>
     </section>
 
-    <section class="page-section page-section_contacts" id="contacts">
+    <section class="page-section page-section_contacts">
       <div class="page-section__content contacts container">
         <form action="" class="contacts__form">
             <input type="text" name="name" id="name" placeholder="Ваше имя">
@@ -130,7 +131,12 @@
   <!-- AJAX-форма !-->
   <script src="js/jquery.form.js"></script>
 
+  <!-- Скролл сайта -->
+  
+  <script src="js/jquery.pagepiling.min.js"></script>
+
   <!-- Основные скрипты сайта !-->
-  <script src="js/scripts.min.js"></script>
+  <script src="js/scripts.min.js"></script>  
+
 </body>
 </html>
